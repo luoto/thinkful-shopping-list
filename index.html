@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, intial-scale=1">
   <title>Shopping List</title>
   <link rel="stylesheet" href="css/main.css">
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
@@ -15,11 +16,12 @@
   <section class="primary-content">
   	<div class="container">
   		<ul class="shopping-list">
-				<li><input type="checkbox">Cheese</li>
-				<li><input type="checkbox">Milk</li>
-				<li><input type="checkbox">Bread</li>
-				<li><input type="checkbox">Butter</li>
-				<li><input type="checkbox">Ham</li>
+				<li class="completed"><span>Cheese</span><button>Done</button><button>Delete</button></li>
+				<li class="completed"><span>Milk</span><button>Done</button><button>Delete</button></li>
+				<li><span>Bread</span><button>Done</button><button>Delete</button></li>
+				<li><span>Butter</span><button>Done</button><button>Delete</button></li>
+				<li><span>Ham</span><button>Done</button><button>Delete</button></li>
+				<li><input type="text" value="Add new item"></li>
   		</ul>
   	</div>
   </section>
