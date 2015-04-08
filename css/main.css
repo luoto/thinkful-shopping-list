@@ -1,1 +1,68 @@
 @import 'reset.css';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.primary-header {
+    margin-top: 3em;
+}
+
+.primary-header h1 {
+    font-size: 3em;
+}
+
+.primary-content {
+    margin-top: 1em;
+}
+
+.shopping-list li {
+    margin-top: .5em;
+}
+
+.shopping-list span {
+    display: inline-block;
+    width: 8em;
+}
+
+.shopping-list input[type=text] {
+    border: none;
+    color: #BFBFBF;
+    font-size: 1em;
+}
+
+.shopping-list .completed span {
+    text-decoration: line-through;
+}
+
+.shopping-list .completed button:first-of-type {
+    display: none;
+}
+
+.meter {
+    margin-top: 1em;
+}
+
+.primary-footer {
+
+}
+
+.meter .container {
+    border: solid 1px #DADFE1;
+}
+.progress-bar {
+    height: 1em;
+    width: 40%;
+    background-color: red;
+}
+
+/* Debug */
+.primary-content .container {
+    /*background-color: lightgray;*/
+}
