@@ -15,6 +15,7 @@ body {
 }
 
 .primary-header h1 {
+    text-align: center;
     font-size: 3em;
 }
 
@@ -43,6 +44,10 @@ body {
 
 .shopping-list .completed button:first-of-type {
     display: none;
+}
+
+.shopping-list button {
+    float: right;
 }
 
 .meter {
