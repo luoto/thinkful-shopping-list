@@ -3,71 +3,121 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
-}
-
-.container {
-    width: 25%;
+    width: 90%;
     margin: 0 auto;
 }
 
 .primary-header {
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
-.primary-header h1 {
-    text-align: center;
+.title {
     font-size: 3em;
+    text-align: center;
 }
 
-.primary-content {
-    margin-top: 1em;
+.list {
+    margin-bottom: 1em;
 }
 
 .shopping-list li {
-    margin-top: .5em;
+    position: relative;
+    margin-bottom: .5em;
 }
 
 .shopping-list span {
-    display: inline-block;
-    width: 8em;
+    display:inline-block;
+    width: 50%;
+    font-size: 1.5em;
 }
 
-.shopping-list input[type=text] {
-    border: none;
-    color: #BFBFBF;
-    font-size: 1em;
-}
-
-.shopping-list .completed span {
+.completed span {
     text-decoration: line-through;
+    color: #BDC3C7;
 }
 
-.shopping-list .completed button:first-of-type {
+.list-control {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top:0;
+}
+
+.list-control i {
     display: none;
 }
 
-.shopping-list button {
-    float: right;
+.progress {
+    border: solid 1px #ecf0f1;
+    height: 2em;
 }
 
-.meter {
-    margin-top: 1em;
-}
-
-.primary-footer {
-
-}
-
-.meter .container {
-    border: solid 1px #DADFE1;
-}
 .progress-bar {
-    height: 1em;
     width: 40%;
+    height: 100%;
     background-color: red;
 }
 
-/* Debug */
-.primary-content .container {
-    /*background-color: lightgray;*/
+.fa-check,
+.fa-remove {
+    margin-left: .2em;
 }
+
+.fa-check {
+    color: #2ecc71;
+}
+
+.fa-remove {
+    color: red;
+}
+
+.list-control,
+.input-control i {
+    cursor: pointer;
+}
+
+#js-focus {
+    border: none;
+    border-bottom: solid 1px #BDC3C7;
+    margin-bottom: .5em;
+    outline: none;
+    font-size: 1.5em;;
+}
+
+@media (min-width: 340px) {
+    body {
+        width: 85%;
+    }
+}
+
+@media (min-width: 430px) {
+    body {
+        width: 80%;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        width: 60%;
+    }
+}
+
+@media (min-width: 800px) {
+    body {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        width: 25%;
+    }
+}
+
