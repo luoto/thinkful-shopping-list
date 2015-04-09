@@ -5,7 +5,10 @@ body {
     background-color: #fff;
     width: 90%;
     margin: 0 auto;
+    overflow: none;
 }
+
+/* Title Area */
 
 .primary-header {
     margin-top: 2em;
@@ -16,6 +19,8 @@ body {
     font-size: 3em;
     text-align: center;
 }
+
+/* List Area */
 
 .list {
     margin-bottom: 1em;
@@ -48,17 +53,6 @@ body {
     display: none;
 }
 
-.progress {
-    border: solid 1px #ecf0f1;
-    height: 2em;
-}
-
-.progress-bar {
-    width: 40%;
-    height: 100%;
-    background-color: red;
-}
-
 .fa-check,
 .fa-remove {
     margin-left: .2em;
@@ -76,6 +70,33 @@ body {
 .input-control i {
     cursor: pointer;
 }
+
+/* Progress Bar Area */
+
+.progress {
+    border: solid 1px #ecf0f1;
+    height: 2em;
+}
+
+.progress-bar {
+    width: 40%;
+    height: 100%;
+    background-color: red;
+}
+
+/* Stars! */
+
+.star-box {
+    margin-top: 2em;
+    color: #F4D03F;
+    text-align: center;
+}
+
+.fa-star {
+    position: absolute;
+}
+
+/* JS Hooks */
 
 #js-focus {
     border: none;
